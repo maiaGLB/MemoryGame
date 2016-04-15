@@ -1,0 +1,15 @@
+
+create database puntajes;
+
+use puntajes;
+
+create table puntajes 
+(
+	id int auto_increment,
+	jugador varchar(80) not null,
+	puntaje int not null,
+        PRIMARY KEY (id)
+);
+
+###################
+usuario de conexion root con contrasenia, en todo caso cambiar en la clase Scores.java
